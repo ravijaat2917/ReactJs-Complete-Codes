@@ -20,9 +20,12 @@ let App = () => {
               views={video.views}
               title={video.title}
               imglink={video.imglink}
-              
             >
-              <PlayButton onSmash={()=>alert('Play...')} buttonName="Play" messege="Play Button Clicked"></PlayButton>
+              <PlayButton
+                onSmash={() => alert("Play...")}
+                buttonName="Play"
+                messege="Play Button Clicked"
+              ></PlayButton>
             </Video>
           </div>
         ))}
